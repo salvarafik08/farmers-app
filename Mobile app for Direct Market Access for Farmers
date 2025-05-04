@@ -1,0 +1,127 @@
+!pip install streamlit
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+
+# Title of the app
+st.title("Direct Market Access for Farmers")
+
+# Sidebar for navigation
+st.sidebar.title("Navigation")
+menu = st.sidebar.radio("Select a feature:", ["Overview", "Market Access", "Insights", "Weather Updates"])
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+
+# Title of the app
+st.title("Direct Market Access for Farmers")
+
+# Sidebar for navigation
+st.sidebar.title("Navigation")
+menu = st.sidebar.radio("Select a feature:", ["Overview", "Market Access", "Insights", "Weather Updates"])
+
+# Sample data for demonstration
+crop_health_data = pd.DataFrame({
+    'Field': ['Field A', 'Field B', 'Field C'],
+    'Health': ['Good', 'Moderate', 'Poor'],
+    'Irrigation Status': ['Optimal', 'Low', 'High']
+})
+
+market_data = pd.DataFrame({
+    'Crop': ['Wheat', 'Rice', 'Corn'],
+    'Market Price (per kg)': [20, 15, 18],
+    'Demand (%)': [80, 60, 75]
+})
+
+weather_data = pd.DataFrame({
+    "City": ["Farmville", "AgroCity", "Greenfield"],
+    "Temperature (°C)": [30, 28, 32],
+    "Rainfall (mm)": [120, 80, 100] #Added a value for consistency
+})
+    #Irrigation Status': ['Optimal', 'Low', 'High']
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+
+# Title of the app
+st.title("Direct Market Access for Farmers")
+
+# Sidebar for navigation
+st.sidebar.title("Navigation")
+menu = st.sidebar.radio("Select a feature:", ["Overview", "Market Access", "Insights", "Weather Updates"])
+
+# Sample data for demonstration
+crop_health_data = pd.DataFrame({
+    'Field': ['Field A', 'Field B', 'Field C'],
+    'Health': ['Good', 'Moderate', 'Poor'],
+    'Irrigation Status': ['Optimal', 'Low', 'High']
+})
+
+market_data = pd.DataFrame({
+    'Crop': ['Wheat', 'Rice', 'Corn'],
+    'Market Price (per kg)': [20, 15, 18],
+    'Demand (%)': [80, 60, 75]
+})
+
+weather_data = pd.DataFrame({
+    "City": ["Farmville", "AgroCity", "Greenfield"],
+    "Temperature (°C)": [30, 28, 32],
+    "Rainfall (mm)": [120, 80, 100] #Added a value for consistency
+})
+    #Demand (%)': [80, 60, 75],
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+
+# Title of the app
+st.title("Direct Market Access for Farmers")
+
+# Sidebar for navigation
+st.sidebar.title("Navigation")
+menu = st.sidebar.radio("Select a feature:", ["Overview", "Market Access", "Insights", "Weather Updates"])
+
+# Sample data for demonstration
+crop_health_data = pd.DataFrame({
+    'Field': ['Field A', 'Field B', 'Field C'],
+    'Health': ['Good', 'Moderate', 'Poor'],
+    'Irrigation Status': ['Optimal', 'Low', 'High']
+})
+
+market_data = pd.DataFrame({
+    'Crop': ['Wheat', 'Rice', 'Corn'],
+    'Market Price (per kg)': [20, 15, 18],
+    'Demand (%)': [80, 60, 75]
+})
+
+weather_data = pd.DataFrame({
+    "City": ["Farmville", "AgroCity", "Greenfield"],
+    "Temperature (°C)": [30, 28, 32],
+    "Rainfall (mm)": [120, 80, 100] #Added a value for consistency
+})
+import plotly.express as px
+
+# Title of the app
+st.title("Direct Market Access for Farmers")
+
+# Sidebar for navigation
+st.sidebar.title("Navigation")
+menu = st.sidebar.radio("Select a feature:", ["Overview", "Market Access", "Insights", "Weather Updates"])
+
+# Sample data for demonstration
+crop_health_data = pd.DataFrame({
+    'Field': ['Field A', 'Field B', 'Field C'],
+    'Health': ['Good', 'Moderate', 'Poor'],
+    'Irrigation Status': ['Optimal', 'Low', 'High']
+})
+
+market_data = pd.DataFrame({
+    'Crop': ['Wheat', 'Rice', 'Corn'],
+    'Market Price (per kg)': [20, 15, 18],
+    'Demand (%)': [80, 60, 75]
+})
+
+weather_data = pd.DataFrame({
+    "City": ["Farmville", "AgroCity", "Greenfield"],
+    "Temperature (°C)": [30, 28, 32],
+    "Rainfall (mm)": [120, 80, 100] # Added a value to match the length of other columns.
+})
